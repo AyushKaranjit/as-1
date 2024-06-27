@@ -1,0 +1,175 @@
+/* This css is for the general layout */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior:smooth;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #282828;
+	color: #d5c4a1;
+	font-family: 'Courier new', Courier, monospace;
+}
+
+/* This css is for Transitions */
+
+a,
+.button {
+	transition: all 300ms ease;
+}
+
+/* This css is for Navigation on Desktop Devices*/
+
+nav,
+.nav-links {
+	display: flex;
+}
+
+nav {
+	justify-content: space-around;
+	align-items: center;
+	height: 17vh;
+}
+
+.nav-links{
+	gap: 2rem;
+	list-style: none;
+	font-size: 2rem;
+}
+
+a {
+	color: #d5c4a1;
+	text-decoration: none;
+	text-decoration-color: white;
+}
+
+a:hover {
+	color: #f9f5d7;
+	text-decoration-color: #f9f5d7;
+	text-decoration: underline;
+	text-underline-offset: 1rem;
+}
+
+#desktop-logo {
+	font-size: 2.5rem;
+}
+
+#desktop-logo:hover {
+	cursor: default;
+}
+
+/* This css is for hamburger menu */
+
+#hamburger-logo {
+	font-size: 1.5rem;
+}
+
+#hamburger-nav {
+	display: none;
+}
+
+.hamburger-menu {
+	position: relative;
+	display: inline-block;
+}
+
+.hamburger-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 24px;
+	width: 30px;
+	cursor: pointer;
+}
+
+.hamburger-icon span {
+	width: 100%;
+	height: 2px;
+	background-color: #d5c4a1;
+	transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	background-color: #282828;
+	width: fit-content;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.3 ease-in-out;	
+}
+
+.menu-links a {
+	display: block;
+	padding:10px;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #d5c4a1;
+	text-decoration: none;
+	transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+	list-style: none;
+}
+
+.menu-links.open {
+	max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+	transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+	transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+	transform: none;
+	opacity: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This css is for Mediaqueries */
+
+@media screen and (max-width:500px) {
+	#desktop-nav {
+		display:none;
+	}
+
+	#hamburger-nav {
+		display:flex;
+	}
+}
