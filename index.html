@@ -8,10 +8,9 @@
 		<title>Homepage</title>
 	</head>
 	<body>
-		<nav id="navigation">
-			<div class="logo">Ayush Karanijt</div>
-			<div>
-				<ul class="links">
+		<nav id="desktop-nav">
+			<div id="desktop-logo">Ayush Karanijt</div>
+				<ul class="nav-links">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="project.html">Projects</a></li>
 					<li><a href="contact.html">Contact</a></li>
@@ -20,5 +19,24 @@
 				</ul>
 			</div>
 		</nav>
+		<nav id="hamburger-nav">
+			<div id="hamburger-logo">Ayush Karanijt</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+					<li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+					<li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+					<li><a href="videoDemo.html" onclick="toggleMenu()">videoDemo</a></li>
+					<li><a href="sitereport.html" onclick="toggleMenu()">sitereport</a></li>
+				</div>
+			</div>
+		</nav>
+		<section id="profile"></section>
+		<script src="script.js"></script>
 	</body>
 </html>
