@@ -33,9 +33,12 @@ nav,
 }
 
 nav {
-	justify-content: space-around;
+	margin-left: 50px;
+	margin-right: 50px;
+	justify-content: space-between;
 	align-items: center;
-	height: 17vh;
+	height: 14vh;
+	border-bottom: 2px solid #ebdbb2;
 }
 
 .nav-links{
@@ -57,8 +60,7 @@ a:hover {
 }
 
 #desktop-logo {
-	font-size: 2.5rem;
-	color: #ebdbb2;
+	margin-top: 5px;
 }
 
 #desktop-logo:hover {
@@ -66,7 +68,7 @@ a:hover {
 }
 
 .index {
-	color: #b8bb26;
+	color: #ebdbb2;
 }
 
 .project {
@@ -167,13 +169,57 @@ a:hover {
 	border: none;
 }
 
+/* This css is for sections */
 
+section {
+	padding-top: 4vh;
+	height: 96vh;
+	margin: 0 10rem;
+	min-height: fit-content;
+	display: flex;
+}
 
+/* This css is for profile section */
 
+ #profile {
+	justify-content: center;
+	gap: 5rem;
+	height: 80vh;
+}
 
+ .section-pic {
+	display: flex;
+	height: 400px;
+	width: 400px;
+	margin: auto 0;
+}
 
+.section-text {
+	align-self: center;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
 
+.section-text p {
+	font-weight: 600;
+}
 
+.section-text-1 {
+	font-size: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+.section-text-2 {
+	font-size: 1.75rem;
+	margin-top: 1rem;
+}
+
+.title {
+	font-size: 3rem;
+	text-align: center;
+}
 
 
 
