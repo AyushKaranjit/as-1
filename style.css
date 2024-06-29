@@ -236,6 +236,8 @@ section {
 	height: 3rem;
 }
 
+/* This  is for about me section on the homepage */
+
 #about {
 	padding: 60px;
 	font-weight: 600;
@@ -278,13 +280,37 @@ section {
 	font-weight: 400;
 }
 
+/* This is for project */
 
+.grid-container {
+    display: grid;
+    grid-template: 400px 400px 0px/ 420px 420px 420px;
+    gap: 10rem;
+	row-gap: 20rem;
+	margin-top: 10rem;
+}
 
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
 
+.grid-container > div {
+	border: 5px dashed #ebdbb2;
+	border-radius: 10px;
+  }
 
+.grid-item {
+	text-align: center;
+	font-size: 2rem;
+	color: #fabd2f;
+	padding: 10px;
+	font-weight: bold;
+}
 
-
-
+.grid-item p {
+	padding-top: 30px;
+}
 
 
 
