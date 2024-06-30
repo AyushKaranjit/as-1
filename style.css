@@ -278,8 +278,8 @@ section {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 420px 420px 420px;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: 26.25rem 26.25rem 26.25rem;
+    grid-template-rows: 25rem 25rem;
     gap: 10rem;
 	row-gap: 20rem;
 	margin-top: 10rem;
