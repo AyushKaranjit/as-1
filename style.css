@@ -283,6 +283,8 @@ section {
 	row-gap: 20rem;
 	margin-top: 10rem;
 	cursor: pointer;
+	width: 100%;
+	min-height: 100vh;
 }
 
 .grid-item img {
@@ -312,6 +314,8 @@ section {
 #contact {
 	color: #83a598;
 	text-align: center;
+	width: 100%;
+	min-height: 100vh;
 }
 
 #contact {
