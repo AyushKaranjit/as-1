@@ -328,37 +328,21 @@ section {
     margin-bottom: 1rem;
 }
 
-.contact-info {
-    text-align: center;
-    margin-bottom: 2rem;
+#contact-info {
+	margin: 0 10px;
+	display: flex;
+	gap: 3rem;
 }
 
-.contact-info p {
-    font-size: 1.75rem;
-}
-
-.contact-info a {
-    color: #83a598;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-	color: #f9f5d7;
-}
-
-
-.email {
-	margin-bottom: 1rem;
-}
-
-#socials {
-    margin-top: 1rem;
+.c-icon {
+	height: 2rem;
 }
 
 /* This css is for form */
 
 form {
-    width: 100%;
+	margin-top: 1rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
