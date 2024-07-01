@@ -32,8 +32,8 @@ nav,
 }
 
 nav {
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 3.125rem;
+	margin-right: 3.125rem;
 	justify-content: space-between;
 	align-items: center;
 	height: 14vh;
@@ -287,8 +287,8 @@ section {
 	justify-content: center;
     align-items: center;
 	margin-bottom: 35rem;
-	margin-left: 10rem;
-	margin-right: 10rem;
+	margin-left: 3.125rem;
+	margin-right: 3.125rem;
 }
 
 .grid-item img {
