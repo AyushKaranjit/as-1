@@ -327,7 +327,7 @@ section {
 
 #contact h1 {
     font-size: 2.5rem;
-	margin-top: 3rem;
+	margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -398,14 +398,36 @@ button:hover {
 	}
 
 	#hamburger-nav {
-		display:flex;
+		display: flex;
 		height: 100px;
 		border-bottom: 2px solid #ebdbb2;
 	}
 
-	#mobile-logo {
-		height: 80px;
+	#profile {
+		margin-bottom: 0;
+		flex-wrap: wrap;
+		gap: 0rem;
+		padding-top: 0vh;
+		margin-top: 4vh;
 	}
 
+	.section-pic {
+		height: 15.625rem;
+		
+	}
 
+	.section-text {
+		margin-top: 4vh;
+	}
+
+	#about {
+		justify-content: center;
+	}
+
+	.content-container {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 2px;
+		margin-right: 20px
+	}
 }
