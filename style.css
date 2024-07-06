@@ -158,17 +158,11 @@ a:hover {
 	opacity: 1s;
 }
 
-.hamburger-icon:focus,
-.hamburger-icon:active {
-    outline: none;
-	border: none;
-}
-
 /* This css is for sections */
 
 section {
 	padding-top: 4vh;
-	height: 75vh;
+	height: 96vh;
 	margin: 0 10rem;
 	min-height: fit-content;
 	display: flex;
@@ -404,7 +398,6 @@ button:hover {
 		border-bottom: 2px solid #ebdbb2;
 	}
 
-    /* Profile section adjustments */
     #profile {
         flex-direction: column;
         padding-top: 5rem;
@@ -443,5 +436,18 @@ button:hover {
 
 	.about-paragraph-1, .about-paragraph-2, .about-paragraph-3, .about-paragraph-4 {
 		font-size: 1.25rem;
+	}
+
+	.grid-container {
+		grid-template-columns: 20rem;
+		grid-template-rows: 15rem 15rem 15rem 15rem 15rem 15rem;
+		column-gap: 5rem;
+		row-gap: 10rem;
+		margin-top: 5rem;
+		height: 115rem;
+	}
+
+	#contact {
+		
 	}
 }
