@@ -164,7 +164,7 @@ section {
 	padding-top: 4vh;
 	height: 96vh;
 	margin: 0 10rem;
-	min-height: fit-content;
+	/* min-height: fit-content; */
 	display: flex;
 }
 
@@ -322,7 +322,7 @@ section {
 
 #contact h1 {
     font-size: 2.5rem;
-	margin-top: 3rem;
+	margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -403,7 +403,8 @@ button:hover {
         padding-top: 5rem;
         height: auto;
 		align-items: center;
-		margin: 0 50px;
+		margin-left: 3.125rem;
+    	margin-right: 3.125rem;
 		margin-bottom: 2rem;
     }
 
@@ -439,15 +440,26 @@ button:hover {
 	}
 
 	.grid-container {
-		grid-template-columns: 20rem;
+		grid-template-columns: 17rem;
 		grid-template-rows: 15rem 15rem 15rem 15rem 15rem 15rem;
 		column-gap: 5rem;
 		row-gap: 10rem;
 		margin-top: 5rem;
 		height: 115rem;
+		cursor: none;
 	}
 
-	#contact {
-		
+	#contact{
+		margin: 0 50px;
 	}
+
+	#contact h1 {
+		margin-top: 1rem;
+		font-size: 2rem;
+	}
+
+	.form-group {
+		width: 20rem;
+	}
+
 }
