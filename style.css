@@ -162,7 +162,7 @@ a:hover {
 
 section {
 	padding-top: 4vh;
-	height: 96vh;
+	height: 100vh;
 	margin: 0 10rem;
 	/* min-height: fit-content; */
 	display: flex;
@@ -385,7 +385,7 @@ button:hover {
 	color: #282828;
 }
 
-footer {
+.desktop-footer {
 	text-align: center;
 	padding-bottom: 1rem;
 }
@@ -395,6 +395,11 @@ footer {
 @media screen and (max-width:500px) {
 	#desktop-nav {
 		display:none;
+	}
+
+	nav {
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 
 	#hamburger-nav {
@@ -456,6 +461,7 @@ footer {
 
 	#contact{
 		margin: 0 50px;
+		margin-bottom: 10rem;
 	}
 
 	#contact h1 {
@@ -465,6 +471,12 @@ footer {
 
 	.form-group {
 		width: 20rem;
+	}
+
+	.mobile-footer {
+		text-align: center;
+		padding-bottom: 1rem;
+		font-size: 0.8rem;
 	}
 
 }
