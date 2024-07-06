@@ -1,3 +1,5 @@
+The site is live at: https://ayushkaranjit.github.io/as-1/index.html
+
 Hello,
 
 I am Ayush Karanjit and my Student Id is '24812931'.
