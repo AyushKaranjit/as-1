@@ -297,7 +297,7 @@ section {
 	color: #fabd2f;
 	padding: 10px;
 	font-weight: bold;
-	border: 5px dashed #ebdbb2;
+	border: 5px outset #fabd2f;
 	border-radius: 10px;
 }
 
@@ -385,10 +385,78 @@ button:hover {
 	color: #282828;
 }
 
-.desktop-footer {
+.desktop-footer-1 {
 	text-align: center;
 	padding-bottom: 1rem;
+	color: #ebdbb2;
 }
+
+.desktop-footer-2 {
+	text-align: center;
+	padding-bottom: 1rem;
+	color: #fabd2f;
+}
+
+.desktop-footer-3 {
+	text-align: center;
+	padding-bottom: 1rem;
+	color: #83a598;
+}
+
+.desktop-footer-4 {
+	text-align: center;
+	padding-bottom: 1rem;
+	color: #d3869b;
+}
+
+.desktop-footer-5 {
+	text-align: center;
+	padding-bottom: 1rem;
+	color: #8ec07c;
+}
+
+/* This css is for sitereport */
+
+#sitereport {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	color: #8ec07c;
+	margin-bottom: 10rem;
+	margin-left: 10rem;
+    margin-right: 10rem;
+	height: auto;
+}
+
+.heading {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.site-content{
+    line-height: 1.5;
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* This css is for Mediaqueries */
 
@@ -473,10 +541,44 @@ button:hover {
 		width: 20rem;
 	}
 
-	.mobile-footer {
+	.mobile-footer-1 {
 		text-align: center;
 		padding-bottom: 1rem;
 		font-size: 0.8rem;
+		color: #ebdbb2;
+	}
+
+	.mobile-footer-2 {
+		text-align: center;
+		padding-bottom: 1rem;
+		font-size: 0.8rem;
+		color: #fabd2f;
+	}
+
+	.mobile-footer-3 {
+		text-align: center;
+		padding-bottom: 1rem;
+		font-size: 0.8rem;
+		color: #83a598;
+	}
+
+	.mobile-footer-4 {
+		text-align: center;
+		padding-bottom: 1rem;
+		font-size: 0.8rem;
+		color: #d3869b;
+	}
+
+	.mobile-footer-5 {
+		text-align: center;
+		padding-bottom: 1rem;
+		font-size: 0.8rem;
+		color: #8ec07c;
+	}
+
+	#sitereport {
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 
 }
