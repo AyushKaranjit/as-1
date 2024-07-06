@@ -385,6 +385,11 @@ button:hover {
 	color: #282828;
 }
 
+footer {
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
 /* This css is for Mediaqueries */
 
 @media screen and (max-width:500px) {
