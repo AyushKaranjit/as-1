@@ -591,4 +591,8 @@ button:hover {
 		margin-right: 1rem;
 	}
 
+	.site-content {
+		font-size: 1.25rem;
+	}
+
 }
