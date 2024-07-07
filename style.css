@@ -451,15 +451,19 @@ button:hover {
 }
 
 .site-link {
-	color: #8ec07c;
+	color: #b8bb26;
 	font-weight: bold;
 }
 
 .site-link:hover {
 	color: #ebdbb2;
+	text-underline-offset: 0.5rem;
 }
 
-
+.dark {
+	border: 5px solid #000000;
+	max-width: 100%;
+}
 
 
 
