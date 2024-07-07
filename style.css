@@ -138,7 +138,7 @@ a:hover {
 
 .menu-links.open {
 	max-height: 300px;
-	border: 1px, solid,#ebdbb2;
+	border: 2px, inset,#ebdbb2;
 }
 
 .hamburger-icon.open span:first-child {
@@ -330,6 +330,20 @@ section {
 	margin: 0 10px;
 	display: flex;
 	gap: 3rem;
+	margin-bottom: 1rem;
+}
+
+#name {
+	text-align: center;
+
+}
+
+#email {
+	text-align: center;
+}
+
+#message {
+	text-align: center;
 }
 
 .c-icon {
@@ -348,13 +362,7 @@ form {
 
 .form-group {
     width: 100%;
-    margin-bottom: 1rem;
-}
-
-.form-group label {
-    display: block;
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .form-group input,
@@ -430,13 +438,13 @@ button:hover {
 
 .heading {
 	font-size: 2rem;
-	margin-bottom: 1rem;
+
 }
 
 .site-content{
     line-height: 1.5;
 	font-size: 1.5rem;
-	font-weight: 400;
+	font-weight: bold;
 	margin-bottom: 1rem;
 }
 
@@ -576,9 +584,14 @@ button:hover {
 		color: #8ec07c;
 	}
 
-	#sitereport {
+	#sitereport{
 		margin-left: 1rem;
 		margin-right: 1rem;
+		margin-bottom: 1rem;
 	}
 
+	.site-content {
+		font-size: 1rem;
+		
+	}
 }
